@@ -1,16 +1,94 @@
-# React + Vite
+# 🚀 CivicAI Sentinel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered civic issue reporting platform that enables citizens to report civic problems by uploading images. The system analyzes the image using Google's Gemini AI and provides an officer dashboard to manage and resolve reported issues.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Problem Statement
 
-## React Compiler
+Citizens often face difficulties in reporting civic issues such as potholes, garbage accumulation, broken streetlights, waterlogging, and other public infrastructure problems. Traditional complaint systems are slow, manual, and inefficient.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+CivicAI Sentinel provides an AI-powered solution that automatically identifies the issue from an uploaded image and sends it to the municipal dashboard for action.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 📸 Upload civic issue images
+- 🤖 AI-powered image analysis using Google Gemini
+- 🚨 Automatic issue detection
+- ⚠️ Severity prediction
+- 📝 Detailed AI-generated description
+- ☁️ Firebase Firestore database
+- 👮 Officer Dashboard
+- 🔍 Search reports
+- 📂 Filter reports
+- ✅ Resolve complaints
+- 📊 Dashboard statistics
+- 🕒 Report timestamp
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- CSS
+
+### Backend / Database
+- Firebase Firestore
+
+### AI
+- Google Gemini API
+
+### Version Control
+- Git
+- GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── services/
+ ├── firebase.js
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 🚀 How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 🔮 Future Scope
+
+- User Authentication
+- Officer Authentication
+- Image Storage
+- Live Notifications
+- Google Maps Integration
+- Complaint Tracking
+- Mobile Application
+
+---
+
+## 👨‍💻 Developed By
+
+Sreejit Dutta
+
+---
+
+## 📜 License
+
+This project was developed for the Coding Ninjas Vibe Coding Hackathon 2026.
