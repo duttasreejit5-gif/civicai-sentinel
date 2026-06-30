@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0b1120;
+    color:white;
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 80px;
+
+    position:sticky;
+    top:0;
+
+    background:rgba(15,23,42,.85);
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#3B82F6;
+}
+
+.nav-menu{
+    display:flex;
+    align-items:center;
+    gap:35px;
+}
+
+.nav-menu a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.nav-menu a:hover{
+    color:#3B82F6;
+}
+
+.login-btn{
+    background:#2563EB;
+    color:white;
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.login-btn:hover{
+    background:#1D4ED8;
+}
+
+/* ---------- HERO ---------- */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 80px;
+    margin-top:20px;
+    min-height:calc(100vh - 80px);
+    gap:60px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.badge{
+    background:#1e293b;
+    color:#60a5fa;
+    padding:8px 16px;
+    border-radius:20px;
+    display:inline-block;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.hero-left h1{
+    font-size:52px;
+    line-height:1.1;
+}
+
+.hero-left h2{
+    color:#3b82f6;
+    margin-top:15px;
+}
+
+.hero-left p{
+    margin-top:25px;
+    font-size:20px;
+    color:#cbd5e1;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    margin-top:35px;
+}
+
+.primary-btn{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:16px 32px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-right:15px;
+    font-size:16px;
+}
+
+.secondary-btn{
+    background:transparent;
+    color:white;
+    border:2px solid #2563eb;
+    padding:16px 32px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-card{
+    width:340px;
+    height:340px;
+    background:#111827;
+    border:1px solid #3b82f6;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size:24px;
+    line-height:1.8;
+    box-shadow:0 0 30px rgba(59,130,246,.25);
+}
